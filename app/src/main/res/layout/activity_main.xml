@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutStyle"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <TextView
+        style="@style/DescriptionTextStyle"
+        android:text="@string/description_main_screen"/>
+    <LinearLayout
+        style="@style/LayoutStyle"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/start_screen_list"
+            style="@style/StartTitleTextStyle"
+            android:text="@string/list_text" />
+
+        <TextView
+            android:id="@+id/start_screen_search"
+            style="@style/StartTitleTextStyle"
+            android:text="@string/search_text" />
+
+        <TextView
+            android:id="@+id/start_screen_settings"
+            style="@style/StartTitleTextStyle"
+            android:text="@string/settings_text" />
+    </LinearLayout>
+
+</LinearLayout>

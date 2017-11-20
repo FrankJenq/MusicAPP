@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Frank Player</string>
+    <string name="search_text">搜索</string>
+    <string name="list_text">列表</string>
+    <string name="settings_text">设置</string>
+    <string name="play_text">播放</string>
+    <string name="detail_text">详情</string>
+    <string name="search_result_text">搜索结果</string>
+    <string name="description_main_screen">
+        显示主界面，可以点击进入歌曲列表、搜索或设置页面。
+    </string>
+    <string name="description_list_screen">
+        显示歌曲列表，可以点击左上方箭头返回上级菜单，
+        或点击列表栏中的歌曲跳转到详情或者播放页面。</string>
+    <string name="description_search_result_screen">
+        显示搜索结果列表，可以点击左上方箭头返回上级菜单，
+        或点击列表栏中的歌曲跳转到详情或者播放页面。
+    </string>
+    <string name="description_settings_screen">
+        显示设置列表，可以点击左上方箭头返回上级菜单。
+    </string>
+    <string name="description_play_screen">
+        显示播放页面，可以点击左上方箭头返回上级菜单。
+    </string>
+    <string name="description_detail_screen">
+        显示歌手信息、专辑信息等歌曲详情，可以点击左上方箭头返回上级菜单。
+    </string>
+    <string name="music_example">歌曲示例</string>
+</resources>
